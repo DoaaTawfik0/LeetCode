@@ -1,6 +1,6 @@
 /* Write your T-SQL query statement below */
 
-SELECT P.ID 
-FROM Weather c , Weather p
-where DATEADD(day,-1,p.recordDate) = c.recordDate
-AND p.temperature-c.temperature > 0;
+SELECT Today.ID 
+FROM Weather Today , Weather Yesterday
+where DATEADD(day,-1,Today.recordDate) = Yesterday.recordDate
+AND Today.temperature > Yesterday.temperature ;
