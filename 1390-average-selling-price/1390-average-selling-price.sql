@@ -18,8 +18,7 @@ FROM
         FROM Prices P 
         LEFT JOIN UnitsSold U 
             ON P.product_id = U.product_id
-        WHERE DATEDIFF(day, U.purchase_date, P.end_date) >= 0 
-            AND DATEDIFF(day, U.purchase_date, P.start_date) <= 0 
+        WHERE U.purchase_date BETWEEN P.start_date AND P.end_date
             OR U.purchase_date IS NULL
     ) AS T1
     GROUP BY product_id
