@@ -20,7 +20,7 @@ SELECT product_id, new_price as price
 FROM HelpToGetRepeatedProducts
 WHERE RN = 1
 
-UNION
+UNION ALL
 
 SELECT product_id , 10 as price
 FROM HelpToGetUniqueProducts 
