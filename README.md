@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/DoaaTawfik0/LeetCode/tree/master/0175-combine-two-tables) |
+| [0176-second-highest-salary](https://github.com/DoaaTawfik0/LeetCode/tree/master/0176-second-highest-salary) |
 | [0180-consecutive-numbers](https://github.com/DoaaTawfik0/LeetCode/tree/master/0180-consecutive-numbers) |
 | [0196-delete-duplicate-emails](https://github.com/DoaaTawfik0/LeetCode/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/DoaaTawfik0/LeetCode/tree/master/0197-rising-temperature) |
